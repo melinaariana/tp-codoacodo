@@ -441,6 +441,18 @@ body {
     border: none;
     width: 50%;
 }
+.contacto-form button {
+    width: 50%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 15px;
+    color: #eb7979;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 @media (max-width: 760px) {
     /* HEADER */
     .header {
@@ -481,6 +493,19 @@ body {
         display: none;
     }
     .trucos-div {
+        width: 100%;
+    }
+
+    /* CONTACTO */
+    .contacto-form input {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .contacto-form textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .contacto-form button {
         width: 100%;
     }
 }
