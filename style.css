@@ -452,19 +452,6 @@ body {
     .header-contact {
         display: none;
     }
-
-    /* RECETAS */
-    .receta-card {
-        width: 100%;
-    }
-
-    /* TRUCOS */
-    #trucos-card-none {
-        display: none;
-    }
-}
-
-@media (max-width: 320px) {
     /* HEADER */
     .header-logo {
         width: 100%;
@@ -478,7 +465,27 @@ body {
         padding: 0;
         flex-direction: column;
     }
+    /* RECETAS */
+    .receta-card {
+        width: 100%;
+    }
+    .recetas-page-container {
+        flex-direction: column;
+    }
+    .menu {
+        width: 100%;
+    }
 
+    /* TRUCOS */
+    #trucos-card-none {
+        display: none;
+    }
+    .trucos-div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
     /* RECETAS */
     .receta-card {
         margin: 15px 0;
